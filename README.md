@@ -1,16 +1,16 @@
-# pictorial-maps-faster-rcnn
+# Detection of sailing ships on historic maps with Faster-RCNN
 
 ## Installation
 
-* Requires Python 3.6.x (https://www.python.org/downloads/)
-* Requires CUDA Toolkit 9.0 (https://developer.nvidia.com/cuda-downloads) and corresponding cuDNN (https://developer.nvidia.com/rdp/cudnn-download)
-* Download project
+* Requires [Python 3.6.x](https://www.python.org/downloads/)
+* Requires [CUDA Toolkit 9.0](https://developer.nvidia.com/cuda-downloads) and corresponding [cuDNN](https://developer.nvidia.com/rdp/cudnn-download)
+* Download [this project](https://gitlab.ethz.ch/sraimund/pictorial-maps-faster-rcnn/-/archive/master/pictorial-maps-faster-rcnn-master.zip)
 * pip install -r requirements.txt
 
 
 ## Training
 
-* Download training data and adjust DATA_FOLDER in config.py 
+* Download [training data](https://ikgftp.ethz.ch/?path=/pictorial_maps_faster_rcnn_data.zip) and adjust DATA_FOLDER in config.py 
 * Set LOG_FOLDER in config.py where intermediate snapshots shall be stored
 * Download [trained coco weights](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz) for Faster-RCNN and set COCO_WEIGHTS_PATH to the downloaded model in config.py
 * Optionally adjust properties like strides (e.g. STRIDES = [16]), number of runs (e.g. RUN_NRS = ["1st"]), scales (e.g. SCALE_ARRAYS = [[0.25, 0.5, 1.0, 2.0]]) in config.py
