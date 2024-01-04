@@ -40,3 +40,5 @@
 * Bug fixes based on GitHub issues so that it actually works...
 * Compiled .proto to .py files
 * Parametrization of config files so that it can be trained in multiples runs with different configurations
+
+© 2019-2020 ETH Zurich, Raimund Schnürer
