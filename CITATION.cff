@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: Please cite the following works when using this code.
+preferred-citation:
+  authors:
+    - family-names: Schnürer
+      given-names: Raimund
+    - family-names: Sieber
+      given-names: René
+    - family-names: Schmid-Lanter
+      given-names: Jost
+    - family-names: Öztireli
+      given-names: A. Cengiz
+    - family-names: Hurni
+      given-names: Lorenz
+  doi: 10.1080/00087041.2020.1738112
+  identifiers:
+    - type: doi
+      value: 10.1080/00087041.2020.1738112
+    - type: url
+      value: https://doi.org/10.1080/00087041.2020.1738112
+    - type: other
+      value: urn:issn:0008-7041
+  title: Detection of Pictorial Map Objects with Convolutional Neural Networks
+  url: https://doi.org/10.1080/00087041.2020.1738112
+  date-published: 2020-09-11
+  year: 2021
+  month: 8
+  issn: 0008-7041
+  issue: '1'
+  journal: The Cartographic Journal
+  languages:
+    - en
+  start: '50'
+  end: '68'
+  type: article
+  volume: '58'
