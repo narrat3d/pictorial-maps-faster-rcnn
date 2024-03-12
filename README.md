@@ -43,4 +43,20 @@ This is code for the article [Detection of Pictorial Map Objects with Convolutio
 * Compiled .proto to .py files
 * Parametrization of config files so that it can be trained in multiples runs with different configurations
 
+## Citation
+
+Please cite the following article when using this code:
+```
+@article{schnuerer2021detection,
+  author = {Raimund Schnürer, René Sieber, Jost Schmid-Lanter, A. Cengiz Öztireli and Lorenz Hurni},
+  title = {Detection of Pictorial Map Objects with Convolutional Neural Networks},
+  journal = {The Cartographic Journal},
+  volume = {58},
+  number = {1},
+  pages = {50-68},
+  year = {2021},
+  doi = {10.1080/00087041.2020.1738112}
+}
+```
+
 © 2019-2020 ETH Zurich, Raimund Schnürer
